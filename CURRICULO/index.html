@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Profissional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="saudacao">Seja Bem-vindo(a) ao meu currículo</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Apresentação -->
+        <section id="sobre">
+            <article>
+                <h2>Quem sou eu</h2>
+                <img src="media/foto.jpg" alt="Foto de apresentação" class="foto">
+                <p>Me chamo Leonardo e sou um grande desenvolvedor,
+                    e como um grande desenvolvedor eu dou um otimo pescador!!</p>
+            </article>
+        </section>
+
+        <!-- Lista de habilidades -->
+        <section id="habilidades">
+            <h2>Minhas habilidades</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript básico</li>
+                <li>Git e controle de versão</li>
+                <li>Futebol (-1)</li>
+            </ul>
+            <audio controls>
+                <source src="media/audio.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+        <!-- Formas de contato -->
+        <section id="contato">
+            <h2>Entre em contato</h2>
+            <form id="formContato">
+                <label for="nome">Digite seu nome parceiro(a):</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                <button type="submit">Enviar para Leonardo</button>
+            </form>
+            <p>📧 Envie-me um e-mail: <a href="mailto:zontinhabr@example.com">zontinhabr@example.com</a></p>
+            <p>🌐 Siga-me: 
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a> | 
+                <a href="https://github.com" target="_blank">GitHub</a>
+            </p>
+        </section>
+
+        <!-- Canva -->
+        <section>
+            <h2>Desenho com Canva</h2>
+            <canvas id="meuCanvas" width="200" height="200"></canvas>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Currículo Profissional</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
